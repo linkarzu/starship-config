@@ -1,5 +1,5 @@
 # Installation
-To install starship go to the [main page](https://starship.rs) and follow the instructions for your OS
+To install starship go to the [main page](https://starship.rs) and follow the instructions for your OS. Below are the steps for linux and macOS
 
 ## Linux using bash
 
@@ -30,6 +30,19 @@ eval "$(starship init zsh)"
 Configuration changes are normally applied to the `~/.config/starship.toml` file, but since I have my file in github, I changed the default config file so that I can easily clone the repo to a new machine
 
 I'll keep all my github repos in the `github` repo so I can just clone stuff in there. After cloning the repo there just run the following command so that the starship points to the cloned configuration
-```apacheconf
-export STARSHIP_CONFIG=~/github/starship-config/starship.toml
+- **Add this line at the end of your `~/.bashrc` or `~/.zshrc` file**
+
+Check your type of shell
+```bash
+echo $SHELL
+```
+
+If you're using `~/.bashrc`
+```bash
+echo "export STARSHIP_CONFIG=~/github/starship-config/starship.toml" >> ~/.bashrc
+```
+
+If you're using `~/.zshrc`
+```bash
+echo "export STARSHIP_CONFIG=~/github/starship-config/starship.toml" >> ~/.zshrc
 ```
