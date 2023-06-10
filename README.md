@@ -1,5 +1,5 @@
 # Installation
-To install starship go to the [main page](https://starship.rs ){:target="_blank"} and follow the instructions for your OS
+To install starship go to the [main page](https://starship.rs){:target="_blank"} and follow the instructions for your OS
 
 ## Linux using bash
 
