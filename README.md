@@ -1,4 +1,7 @@
 # Installation
+
+For consistency across machines, clone this repo inside the `~/github` directory
+
 To install starship go to the [main page](https://starship.rs) and follow the instructions for your OS. Below are the steps for linux and macOS
 
 ## Linux using bash
