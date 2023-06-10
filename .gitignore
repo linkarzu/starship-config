@@ -4,4 +4,4 @@
 # But don't ignore .gitignore and starship.toml files
 !.gitignore
 !starship.toml
-
+!README.md
