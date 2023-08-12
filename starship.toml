@@ -22,3 +22,7 @@ truncate_to_repo = false
 
 [gcloud]
 disabled = true
+
+[battery]
+disabled = true
+
