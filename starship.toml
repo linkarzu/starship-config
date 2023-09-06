@@ -1,5 +1,13 @@
 # vim ~/.config/starship.toml
 
+format = """\
+$username\
+$hostname\
+$directory\
+$git_status\
+\n$time\
+$character"""
+
 [character]
 success_symbol = '[\$](bold green)'
 
@@ -20,9 +28,16 @@ style = '#00a5ff bold'
 truncation_length = 0
 truncate_to_repo = false
 
+[time]
+style = 'purple bold'
+disabled = false
+format = '[\[$time\]]($style) '
+time_format = '%T'
+#utc_time_offset = '-5'
+#time_range = '10:00:00-14:00:00'
+
 [gcloud]
 disabled = true
 
 [battery]
 disabled = true
-
