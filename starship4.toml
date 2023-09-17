@@ -1,0 +1,42 @@
+# vim ~/.config/starship3.toml
+
+format = """\
+$username\
+$hostname\
+$directory\
+$git_status\
+\n$time\
+$character"""
+
+[character]
+success_symbol = '[\$](bold red)'
+
+[username]
+style_user = '#AE8FD9 bold'
+style_root = 'white bold'
+format = '[$user]($style)'
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = '[@](white bold)[$hostname](#EDE9F2 bold)'
+disabled = false
+
+[directory]
+style = '#D2BBF2 bold'
+truncation_length = 0
+truncate_to_repo = false
+
+[time]
+style = '#AE8FD9 bold'
+disabled = false
+format = '[\[$time\]]($style) '
+time_format = '%T'
+
+[gcloud]
+disabled = true
+
+[battery]
+disabled = true
+
