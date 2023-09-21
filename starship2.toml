@@ -1,10 +1,14 @@
-# vim ~/.config/starship2.toml
+# vim ~/.config/starship.toml
+# https://starship.rs/config/#git-branch
 
 format = """\
 $username\
 $hostname\
 $directory\
+$git_branch\
 $git_status\
+$git_commit\
+$git_state\
 \n$time\
 $character"""
 
