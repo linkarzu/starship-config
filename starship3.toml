@@ -9,6 +9,13 @@ $git_branch\
 $git_status\
 $git_commit\
 $git_state\
+$python\
+$nodejs\
+$kubernetes\
+$ruby\
+$terraform\
+$container\
+$docker_context\
 \n$time\
 $character"""
 
