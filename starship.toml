@@ -45,8 +45,3 @@ disabled = false
 format = '[\[$time\]]($style) '
 time_format = '%T'
 
-[gcloud]
-disabled = true
-
-[battery]
-disabled = true
